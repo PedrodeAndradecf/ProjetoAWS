@@ -1,0 +1,99 @@
+body{
+  width: 100dvw;
+  height: 100dvh;
+  margin: 0px;
+}
+
+.FullView{
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFF;
+}
+
+.NavBar{
+  background-color: #273469;
+  width: 100%;
+  height: 15%;
+
+}
+
+.ShowSection{
+  width: 100%;
+  height: 85%;
+  display: flex;
+
+}
+
+.GamesSection{
+  width: 70%;
+  height: 100%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.FilterSection{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+}
+
+.GameItem{
+  margin: 2%;
+  width: 15%;
+  height: 40%;
+  background-size: 100% 100%;
+  image-rendering: high-quality;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.GameItem:hover{
+  filter: blur(10px);
+}
+
+.PageTitle{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PageTitle{
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 150%;
+  font-style: italic;
+  font-family: "Kanit", sans-serif;
+
+}
+
+.FilterSection h1{
+  align-self: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 90%;
+  font-style: normal;
+}
+
+.FilterSection h2{
+  font-family:cursive;
+  font-size: 120%;
+}
+.FilterSection p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.FilterSection h2, p{
+  margin-left: 3%;
+}
